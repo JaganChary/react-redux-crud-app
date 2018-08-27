@@ -36,6 +36,7 @@ body {
     background-image: linear-gradient(to right, #05E9FF, #0198E1);
     color: white;
     font-size: 16px;
+    transition: 0.3s ease-out all;
 }  
 
 input[type="text"] {
@@ -57,4 +58,34 @@ textarea {
     border-radius: 5px;
 }
 
+.Post {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit, .delete {
+    outline: 0;
+    border-radius: 25px;
+    padding: 12px 60px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s ease-out all;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.edit {
+    margin-right: 10px;
+    background-image: linear-gradient(to right, #33B68D, #34948C);
+}
+
+.delete {
+    margin-left: 10px;
+    background-image: linear-gradient(to right, #F05260, #CE4638);
+}
 
