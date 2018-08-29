@@ -81,8 +81,15 @@ textarea {
 
 .edit {
     margin-right: 10px;
+    /* transition: all 2s ease-in; */
     background-image: linear-gradient(to right, #33B68D, #34948C);
+    
 }
+/* 
+.edit:hover {
+    background-image: linear-gradient(to right, #57A078, #043827);
+
+}    */
 
 .delete {
     margin-left: 10px;
